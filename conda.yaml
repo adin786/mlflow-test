@@ -1,0 +1,9 @@
+name: mlflow-test
+channels:
+  - conda-forge
+dependencies:
+  - pip=22.0.4
+  - python=3.8.12
+  - pip:
+    - mlflow==1.25.1
+prefix: /Users/azam/miniforge3/envs/mlflow-test
