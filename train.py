@@ -2,7 +2,7 @@ import mlflow
 
 with mlflow.start_run():
     mlflow.log_param('my_param', 99)
-    mlflow.log_metric('my_metric', 1.234)
+    mlflow.log_metric('my_metric', 55555)
     
     mlflow.log_param('test_url', '<a href="https://www.google.com">www.google.com</a>')
     mlflow.set_tag('test_url', '<a href="https://www.google.com">www.google.com</a>')
